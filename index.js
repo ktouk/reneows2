@@ -16,8 +16,8 @@ const intervalInseconds = process.env.TIME || 120;  // 自动访问间隔时间�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';  //哪吒三个变量不全不运行，
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';  // 哪吒端口为{443,8443,2096,2087,2083,2053}其中一个端口之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'CndJevDNyqXqzfQPCN';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '1.mini.cloudns.biz';      
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"b4dbebaac0afa9f17f4e965aa0c0583a","TunnelSecret":"I7UYp3SmT9CcAnpBdpPikIr1pZg6JuShGN3KGAKYmNw=","TunnelID":"76bd3d33-ded5-464e-9567-265df8040a83"}';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'a.haba.cf';      
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"b4dbebaac0afa9f17f4e965aa0c0583a","TunnelSecret":"o/rrpRWvBg5e+atnYEen+CY04dLEf/esvLzciZcGDW8=","TunnelID":"19da281b-3b83-4c37-bc13-974d60ca4086"}';
 const CFIP = process.env.CFIP || '192.31.196.123';
 const NAME = process.env.NAME || 'render-Ohin';
 const port = process.env.PORT || 3000;  // http服务端口，即sub订阅端口，玩具需改为分配的端口，否则无法订阅
