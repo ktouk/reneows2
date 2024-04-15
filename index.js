@@ -5,8 +5,8 @@ const UUID = process.env.UUID || 'beb2e120-0725-47d2-b6c4-3a78d135ae2d';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';      // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';              // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'CndJevDNyqXqzfQPCN';                   // 哪吒客户端密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '5.hk.x10.mx';              // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"b4dbebaac0afa9f17f4e965aa0c0583a","TunnelSecret":"1ZVHPsqcrSG0ZEsIGRjRcnVnEHlL8WZNBw/dgHjSHVo=","TunnelID":"3afa1433-bf61-4ae4-91b6-d60a54c51ae9"}';                 // 固定隧道json或token，留空即启用临时隧道
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '5.ducky.cloudns.org';              // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"9ef3111edca33d70066921bf9b778247","TunnelSecret":"d+7gskTlkiDUsfLAnyTIm9oH172eup2t9Nlf5u6gtlM=","TunnelID":"20c463ab-87cd-4594-b393-17cb114badd4"}';                 // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'government.se';             // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                    // 节点端口
 const NAME = process.env.NAME || 'Vls';                     // 节点名称
